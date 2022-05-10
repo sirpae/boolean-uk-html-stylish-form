@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(225deg, rgb(233, 170, 237) 0%, rgb(195, 73, 232) 50%, blue 100%);
+    display: grid;
+    place-items: center;
+}
+
+.form {
+    width: 42rem;
+    height: 50rem;
+    background-color: rgb(240, 203, 228);
+    border-radius: 2%;
+ }
+
+ .container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+ }
+
+ .form-contents {
+    text-align: center;
+ }
+
+ .name {
+    display: inline-block;
+    width: 80%;
+    border-radius: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid grey
+ }
+
+ .service {
+    display: inline-block;
+    width: 80%;
+    border-radius: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid grey
+ }
+
+ .email {
+    display: inline-block;
+    width: 80%;
+    border-radius: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid grey
+ }
+
+ .budget {
+    display: inline-block;
+    width: 80%;
+    border-radius: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid grey
+ }
+
+ .message {
+    display: inline-block;
+    width: 80%;
+    border-radius: none;
+    padding: 0.5rem;
+
+ }
+
+
+
+ button {
+    border: none;
+    padding: 1rem 8rem;
+    border-radius: 50px;
+    background: linear-gradient(225deg, rgb(233, 170, 237) 0%, rgb(195, 73, 232) 50%, blue 100%);
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+
+button:hover {
+    background: linear-gradient(225deg, rgb(233, 170, 237) 0%, rgb(195, 73, 232) 50%, blue 100%);
+    color: black;
+}
+
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(240, 203, 228);
+
+    border: none;
+    padding: 0.5rem;
+}
